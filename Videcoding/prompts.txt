@@ -1,0 +1,61 @@
+Código feito pelo ManusAI 
+
+-Primeiro prompt: 
+Crie uma landing page para a Domani, marca brasileira de activewear minimalista e sustentável (tecnologia, conforto térmico, antiodor, proteção UV), em que eu trabalho. O foco é apresentar o tom Merlot na linha Essential: a cor é a protagonista.
+
+ARQUIVOS
+index.html, style.css e script.js separados, imagens em images/. Mobile-first e responsivo. JS puro, só onde o CSS não resolve (máx. ~40 linhas, comentado): animação de entrada ao rolar (IntersectionObserver), menu do celular e botão que alterna a foto merlot/off white nas peças com duas cores. A página deve funcionar sem o JS.
+
+O QUE TRANSMITIR 
+Elegante e acolhedora, com a leveza da Mboom: textos curtos e bem-humorados, botões com atitude. Na dúvida, pende para o elegante.
+
+CORES 
+Merlot #532228 (impacto, títulos, botões, uma seção de fundo cheio e também o texto, sem preto nem cinza), rosa claro #FFE8EC (respiro e contraste), off white #FFF9E8 (fundo predominante). Crie um merlot um pouco mais claro só para hover e detalhes e me diga o valor.
+
+FONTE
+Courier como principal e Courier New como secundária (etiquetas e detalhes), com monospace de reserva. Sem fontes externas. Títulos bem grandes, em negrito, com espaçamento entre letras. Para destacar uma palavra, use itálico ou rosa.
+
+IMAGENS E REFERÊNCIA
+A imagem anexa é referência de estilo, não modelo. Aproveite: blocos de cor alternados, título gigante sobre a foto na abertura, etiquetas em formato de aba, fotos na mesma paleta da página. Antes de começar, diga em poucas linhas o que percebeu nela. Deixe as tags img prontas em images/ com nomes claros e alt, e um fundo de cor enquanto não tenho as fotos.
+
+ESTRUTURA
+
+1. Abertura: título grande, frase curta e botão "Ver coleção".
+2. Manifesto de 2 a 3 frases sobre o merlot.
+3. Peças da linha Essential, em dois blocos editoriais com fundos alternados, cada um com uma peça em destaque. Cada peça com imagem, nome, frase curta e botão de compra.
+   Parte de cima: Top Alcinha, Top Nadador, Regata Nadador Essential, Polo Dry Fit com Zíper, Regata Dry Fit 2.0.
+   Parte de baixo: Calça Legging Flow, Calça Aladim, Calça Yogi, Calça Yogi Punho, Shorts Runner.
+4. Paleta da coleção: merlot, rosa e off white lado a lado.
+5. Três diferenciais (tecnologia, conforto, sustentabilidade) com ícones simples em CSS ou SVG.
+6. Fechamento em merlot cheio com botão e rodapé discreto.
+
+EVITE
+Cara de template, gradientes roxo e azul, sombras demais, emojis, textos longos, cores fora da paleta.
+
+RESPOSTA
+Antes do código, explique em poucas linhas suas escolhas (hierarquia, uso das cores, ritmo com a Courier, organização das dez peças). Depois entregue os três arquivos completos.
+
+
+Segundo Prompt:
+Gostei da estrutura. Quero ajustar só os pontos abaixo e manter todo o resto como está.
+
+1. MAIS MOVIMENTO
+   A página está parada demais. Quero mais vida, com o CSS fazendo a maior parte:
+
+- Nas peças, quero que mexam quando o mouse passa por cima: a peça sobe um pouco, gira de leve e a imagem dá um zoom suave, com transição macia. Se a peça tiver foto alternativa, o hover pode trocar a foto.
+- Na abertura, o título entra com animação ao carregar a página.
+- Uma faixa de texto curto correndo na horizontal entre duas seções (ex.: "MERLOT • ESSENTIAL • DOMANI"), só em CSS.
+- Botões com hover mais marcante.
+  Respeite prefers-reduced-motion e mantenha o JS enxuto.
+
+2. TROCAR O ROSA POR AMARELO MANTEIGA
+   Não gostei do rosa. Remova o #FFE8EC e use no lugar um amarelo manteiga bem clarinho, em torno de #FFEFB0 (pode ajustar um pouco e me dizer o valor final). Ele ocupa o papel do rosa: respiro, contraste entre seções e destaques. Cuide para que ele se diferencie do off white #FFF9E8 e não fique tudo parecendo a mesma cor. Merlot #532228 continua igual.
+3. A COLEÇÃO É SÓ MERLOT
+   Na seção de paleta, não mostre três tons como se fossem as cores da coleção. A coleção é apenas o Merlot. Refaça essa seção para celebrar só o merlot (um bloco grande da cor, com o nome e uma frase curta sobre ele).
+4. OFF WHITE SÓ EM ALGUMAS PEÇAS
+   O botão que alterna entre merlot e off white deve existir somente nestas seis peças: Top Nadador, Top Alcinha, Calça Yogi, Polo Dry Fit com Zíper, Regata Dry Fit 2.0 e Shorts Runner. As outras quatro (Regata Nadador Essential, Calça Legging Flow, Calça Aladim e Calça Yogi Punho) existem só em merlot e não devem ter o botão.
+5. TEXTO SUMINDO NO FUNDO
+   O "de cima" em "Parte de cima" não aparece, porque está na mesma cor do fundo. Revise todos os textos da página e garanta que nenhum tenha cor igual ou parecida com o fundo onde está. Regra: sobre fundo merlot, use amarelo manteiga ou off white; sobre fundos claros, use merlot. Me avise de qualquer outro ponto que você encontrar e corrigir.
+
+COMO RESPONDER
+Primeiro, liste em poucas linhas o que mudou em cada ponto e qual valor final você usou para o amarelo. Depois entregue apenas os arquivos que foram alterados, completos.
