@@ -1,0 +1,145 @@
+body {
+    background-color: #3b205d;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ---------- Topo ---------- */
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.marca {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    margin-left: auto;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------- Início ---------- */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 1.2rem;
+}
+
+.inicio h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.inicio p {
+    max-width: 600px;
+}
+
+#botao-principal {
+    background-color: #9b51e0;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* ---------- Blocos gerais ---------- */
+.bloco {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.bloco h2 {
+    font-size: 2rem;
+    margin: 0 0 10px;
+}
+
+.descricao {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* ---------- Cartões (serviços e depoimentos) ---------- */
+.lista-cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cartao {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+}
+
+.cartao h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* ---------- Sobre nós ---------- */
+.texto-sobre {
+    max-width: 700px;
+    margin: 30px auto 0;
+    text-align: left;
+}
+
+.texto-sobre h3 {
+    color: #c9a0f5;
+    text-transform: uppercase;
+}
+
+/* ---------- Base (rodapé) ---------- */
+.base {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+}
+
+.colunas-base {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.base h4 {
+    color: #c9a0f5;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.colunas-base p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+}
+
+.direitos {
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
