@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fio & Prensa</title>
+    <title>Meu Diário</title>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap"
@@ -16,160 +15,94 @@
 
 <body class="bg-[#EFE7D6] text-[#2A241C] font-['Work_Sans']">
 
-    <header class="flex flex-wrap justify-between items-center gap-4 px-6 md:px-10 py-4 border-b border-[#2A241C]">
-        <a href="#" class="font-['Fraunces'] text-xl font-semibold">Fio & Prensa</a>
+    <!-- MENU -->
+    <header class="bg-[#1B4332] text-[#EFE7D6] px-6 py-4 flex justify-between items-center">
+        <h2 class="font-['Fraunces'] text-2xl">Meu Diário</h2>
 
-        <nav>
-            <ul class="flex flex-wrap gap-6 text-sm">
-                <li><a href="#oficio">O ofício</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#pecas">Peças</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+        <nav class="flex gap-4 text-sm">
+            <a href="#sobre">Sobre</a>
+            <a href="#fotos">Fotos</a>
+            <a href="#contato">Contato</a>
         </nav>
-
-        <a href="#contato" class="bg-[#1B4332] text-white text-sm px-4 py-2 rounded">
-            Agendar visita
-        </a>
     </header>
 
-    <section class="grid md:grid-cols-2 gap-10 px-6 md:px-10 py-16">
+  
+    <section class="px-6 py-12 grid md:grid-cols-2 gap-8 items-center">
         <div>
-            <h1 class="font-['Fraunces'] text-4xl md:text-5xl font-semibold">
-                Livros que se seguram nas mãos por gerações.
+            <h1 class="font-['Fraunces'] text-4xl md:text-5xl">
+                Um pouco sobre a minha vida
             </h1>
 
-            <p class="mt-4 text-sm leading-6">
-                Costuramos, colamos e prensamos à mão — do caderno de uso diário à restauração de exemplares de família.
-                Cada peça passa pelas mesmas quatro etapas que aprendemos há trinta anos.
+            <p class="mt-4 text-lg">
+                Oi! Gosto de livros, cafés, música e de guardar lembranças
+                dos momentos simples do dia a dia.
             </p>
-
-            <a href="#oficio"
-                class="inline-block mt-6 border border-[#2A241C] px-4 py-2 text-sm rounded hover:bg-[#9A3324] hover:text-white">
-                Ver serviços
-            </a>
         </div>
 
-        <ul class="border-t border-[#2A241C]">
-            <li class="flex items-center gap-4 py-4 border-b border-[#2A241C]">
-                <span class="w-4 h-4 bg-[#9A3324]"></span>
-                <div>
-                    <p class="text-sm font-semibold">Linho belga, cor terracota</p>
-                    <p class="text-xs">Capa dura, acabamento fosco</p>
-                </div>
-            </li>
-
-            <li class="flex items-center gap-4 py-4 border-b border-[#2A241C]">
-                <span class="w-4 h-4 bg-[#1B4332]"></span>
-                <div>
-                    <p class="text-sm font-semibold">Percalux verde-musgo</p>
-                    <p class="text-xs">Resistente à umidade</p>
-                </div>
-            </li>
-
-            <li class="flex items-center gap-4 py-4 border-b border-[#2A241C]">
-                <span class="w-4 h-4 bg-[#A9895F]"></span>
-                <div>
-                    <p class="text-sm font-semibold">Papel de guarda marmorizado</p>
-                    <p class="text-xs">Feito à mão, padrão único</p>
-                </div>
-            </li>
-        </ul>
+        <img src="https://i.pinimg.com/736x/a8/c6/17/a8c617165918aa91b6fe0ce7d9337d52.jpg"
+            alt="Ilustração de uma menina" class="w-full md:w-3/4 h-64 object-cover rounded">
     </section>
 
-    <section id="oficio" class="bg-[#A9895F]/30 px-6 md:px-10 py-16">
-        <h2 class="font-['Fraunces'] text-2xl font-semibold">
-            O ofício, em quatro etapas
-        </h2>
 
-        <p class="mt-2 text-sm">
-            Cada livro passa pela mesma sequência de trabalho, do primeiro caderno de páginas soltas até a prensa final.
+    <section id="sobre" class="bg-[#1B4332] text-[#EFE7D6] px-6 py-12">
+        <h2 class="font-['Fraunces'] text-3xl">Coisas que eu gosto</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+            <div>
+                <h3 class="text-[#A9895F] text-xl">01. Livros</h3>
+                <p>Viver realidades diferentes quando quiser é um superpoder.</p>
+            </div>
+
+            <div>
+                <h3 class="text-[#A9895F] text-xl">02. Tranças</h3>
+                <p>Mudar o cabelo da forma mais linda e fácil possível.</p>
+            </div>
+
+            <div>
+                <h3 class="text-[#A9895F] text-xl">03. Música</h3>
+                <p>A vida precisa de uma trilha sonora.</p>
+            </div>
+
+            <div>
+                <h3 class="text-[#A9895F] text-xl">04. Passeios</h3>
+                <p>Gosto de conhecer lugares novos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- GALERIA -->
+    <section id="fotos" class="px-6 py-12">
+        <h2 class="font-['Fraunces'] text-3xl">Eu em fotos</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpz_voscYwIR6-E7UvIijbzwiGcNyaTfycbc9bPAafw&s=10" 
+                alt="Livros" class="w-full h-40 object-cover rounded-lg">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGmPOkXUxc4EynSmcqTr44Un-52ObXm3LOKca65BVovNOfp6jAWkK9gp4&s=10"
+                alt="Flor" class="w-full h-40 object-cover rounded-lg">
+
+            <img src="https://i.pinimg.com/736x/59/cf/ce/59cfce85f5b3fb41eddf0fdb71dbf651.jpg"
+                alt="joia" class="w-full h-40 object-cover rounded-lg">
+
+            <img src="https://i.pinimg.com/736x/da/16/7d/da167da2d995ba2a67d9f3f950f2e2dc.jpg"
+                alt="mar" class="w-full h-40 object-cover rounded-lg">
+        </div>
+    </section>
+
+    <!-- DEPOIMENTO -->
+    <section class="bg-[#A9895F]/30 px-6 py-12">
+        <h2 class="font-['Fraunces'] text-3xl">Uma frase que eu gosto</h2>
+
+        <p class="mt-4 text-lg italic text-[#9A3324]">
+            "Depois do medo vem o mundo."
         </p>
-
-        <div id="servicos" class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
-            <div>
-                <p class="font-['Fraunces'] text-2xl text-[#9A3324]">01</p>
-                <h3 class="font-['Fraunces'] font-semibold">Dobra</h3>
-                <p class="text-xs mt-2">As folhas são dobradas em cadernos e organizadas na ordem de leitura.</p>
-            </div>
-
-            <div>
-                <p class="font-['Fraunces'] text-2xl text-[#9A3324]">02</p>
-                <h3 class="font-['Fraunces'] font-semibold">Costura</h3>
-                <p class="text-xs mt-2">Os cadernos são costurados manualmente com fio encerado, ponto a ponto.</p>
-            </div>
-
-            <div>
-                <p class="font-['Fraunces'] text-2xl text-[#9A3324]">03</p>
-                <h3 class="font-['Fraunces'] font-semibold">Colagem</h3>
-                <p class="text-xs mt-2">O lombo recebe cola natural, que dá firmeza sem engessar o papel.</p>
-            </div>
-
-            <div>
-                <p class="font-['Fraunces'] text-2xl text-[#9A3324]">04</p>
-                <h3 class="font-['Fraunces'] font-semibold">Prensagem</h3>
-                <p class="text-xs mt-2">O volume descansa na prensa por 24h para fixar a forma definitiva.</p>
-            </div>
-        </div>
     </section>
 
-    <section id="pecas" class="px-6 md:px-10 py-16">
-        <h2 class="font-['Fraunces'] text-2xl font-semibold">Peças recentes</h2>
-
-        <div class="mt-8 grid grid-cols-2 gap-3">
-            <div class="col-span-2 row-span-2 min-h-64 bg-gradient-to-br from-[#A9895F]/40 to-[#A9895F] rounded p-3">
-                <span class="text-xs uppercase">Caderno de campo</span>
-            </div>
-
-            <div class="min-h-32 bg-gradient-to-br from-[#A9895F]/40 to-[#A9895F] rounded p-3">
-                <span class="text-xs uppercase">Restauro 1948</span>
-            </div>
-
-            <div class="min-h-32 bg-gradient-to-br from-[#A9895F]/40 to-[#A9895F] rounded p-3">
-                <span class="text-xs uppercase">Álbum de casamento</span>
-            </div>
-
-            <div class="col-span-2 min-h-32 bg-gradient-to-br from-[#A9895F]/40 to-[#A9895F] rounded p-3">
-                <span class="text-xs uppercase">Edição limitada, 12 exemplares</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="border-t border-[#2A241C] px-6 md:px-10 py-14">
-        <blockquote class="md:w-1/2">
-            <p class="font-['Fraunces'] italic text-lg">
-                Levei o diário do meu avô, que estava se desfazendo, e voltou como se tivesse sido feito ontem — mas
-                ainda com a capa original.
-            </p>
-
-            <p class="text-xs mt-3">
-                <strong>Helena Mourão</strong> — cliente desde 2019
-            </p>
-        </blockquote>
-    </section>
-
-    <footer id="contato" class="bg-[#1B4332] text-white px-6 md:px-10 py-14">
-        <h2 class="font-['Fraunces'] text-2xl font-semibold">Visite o ateliê</h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 text-xs">
-            <div>
-                <p class="uppercase mb-2">Endereço</p>
-                <p>Rua dos Encadernadores, 214 — Lapa, São Paulo</p>
-            </div>
-
-            <div>
-                <p class="uppercase mb-2">Horário</p>
-                <p>Terça a sábado, 10h às 18h</p>
-            </div>
-
-            <div>
-                <p class="uppercase mb-2">Contato</p>
-                <p>contato@fioeprensa.com.br</p>
-            </div>
-        </div>
+    <!-- RODAPE -->
+    <footer id="contato" class="bg-[#2A241C] text-[#EFE7D6] text-sm text-center px-6 py-3">
+        <p>Meu Diário - &copy; 2026</p>
     </footer>
 
 </body>
 
 </html>
-```
